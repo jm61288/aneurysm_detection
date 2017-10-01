@@ -19,7 +19,7 @@ C=0.55;
 % diary('.\htmlR\log.txt')
 
 % CA file number
-ca=3;
+ca=str2num(input('Enter CA file number [1,2,3,4,5] : ','s'));
     
     
     f=filename{ca};
